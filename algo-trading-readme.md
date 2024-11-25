@@ -73,9 +73,8 @@ self.MAX_LOSS_CAP = 10       # Maximum loss limit
 
 1. Clone the repository
 ```bash
-git clone https://github.com/HarshalNerpagar/AlgoTradingBot_Python.git
-cd AlgoTradingBot_Python
-
+git clone https://github.com/yourusername/td-sequential-trading-bot.git
+cd td-sequential-trading-bot
 ```
 
 2. Install dependencies
@@ -85,8 +84,10 @@ pip install -r requirements.txt
 
 3. Configure API credentials
 ```bash
-# Add Your access token here
-cd access_token
+# Create credentials file
+cp config.example.py config.py
+# Edit with your broker credentials
+vim config.py
 ```
 
 ## Usage
@@ -133,7 +134,7 @@ This software is for educational purposes only. Use at your own risk. The author
 
 ## Contact
 For internship inquiries or questions about the project, please reach out through:
-- LinkedIn: https://www.linkedin.com/in/harshal-nerpagar/
-- Email: harshal.j23csai@nst.rishihood.edu.in
-- GitHub: https://github.com/HarshalNerpagar
+- LinkedIn: [Your LinkedIn]
+- Email: [Your Email]
+- GitHub: [Your GitHub]
 
