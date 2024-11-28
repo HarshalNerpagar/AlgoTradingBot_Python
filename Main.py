@@ -113,7 +113,7 @@ class TradingStrategy:
         try:
             with open('Fyers_Authentication/access_token', 'r') as file1:
                 access_token = file1.readline().strip()
-            client_id = "OVUPFX8VX5-100"
+            client_id = "YOUR_USER_ID"
             return fyersModel.FyersModel(client_id=client_id, is_async=False, token=access_token, log_path="")
         except FileNotFoundError:
             logger.error("Access token file not found.")
